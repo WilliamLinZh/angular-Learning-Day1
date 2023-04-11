@@ -1,6 +1,8 @@
 <div>
-  card {{ card.description }}
-  <div class="img">
+  <button type="button" (click)="hideImage()">Hide</button>
+  <button type="button" (click)="showImage()">Show</button>
+  <p>card {{ card.description }}</p>
+  <div [class]="imageDisplay ? 'imageShow' : 'imageHide'">
     <img [src]="card.imageUrl" />
   </div>
 </div>

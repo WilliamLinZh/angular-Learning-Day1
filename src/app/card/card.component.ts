@@ -7,5 +7,13 @@ import { Card } from '../cards';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
+  imageDisplay = true;
   @Input() card!: Card;
+
+  hideImage() {
+    this.imageDisplay = false;
+  }
+  showImage() {
+    this.imageDisplay = true;
+  }
 }
