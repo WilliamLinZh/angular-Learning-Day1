@@ -7,18 +7,35 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { CardListComponent } from './card-list/card-list.component';
 import { CardComponent } from './card/card.component';
+import { BookComponent } from './book/book.component';
+import { PenComponent } from './pen/pen.component';
+import { GeometryComponent } from './geometry/geometry.component';
+import { PaperComponent } from './paper/paper.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([{ path: '', component: CardListComponent }]),
+    RouterModule.forRoot([
+      { path: '', component: CardListComponent },
+      { path: 'book', component: BookComponent },
+      { path: 'pen', component: PenComponent },
+      { path: 'geometry', component: GeometryComponent },
+      { path: 'paper', component: PaperComponent },
+      { path: 'products', component: ProductsComponent },
+    ]),
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     CardListComponent,
     CardComponent,
+    BookComponent,
+    PenComponent,
+    GeometryComponent,
+    PaperComponent,
+    ProductsComponent,
   ],
   bootstrap: [AppComponent],
 })
