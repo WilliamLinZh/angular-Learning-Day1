@@ -1,7 +1,10 @@
-
 <div *ngIf="book">
   <h3>{{ book.name }}</h3>
   <h4>{{ book.price | currency }}</h4>
   <img [src]="book.imageUrl" />
   <p>{{ book.description }}</p>
+  <button type="button" (click)="recommendBooks()">Find Books</button>
+  <br />
+  <br />
+  <button type="button" (click)="getBookReviews()">Get Reviews</button>
 </div>

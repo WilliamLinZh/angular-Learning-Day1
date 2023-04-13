@@ -19,4 +19,10 @@ export class BookDetailsComponent implements OnInit {
 
     this.book = books.find((book) => book.id === bookIdFromRoute);
   }
+
+  recommendBooks() {
+    //this.recommendedBooks =
+  }
+
+  getBookReviews() {}
 }
