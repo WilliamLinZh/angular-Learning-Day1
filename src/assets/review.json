@@ -1,92 +1,92 @@
 [
   {
     "bookName": "Atomic Habits: The life-changing million copy bestseller",
-    "Reviewer": "Mark Manson, author of The Subtle Art of Not Giving a F*ck",
+    "reviewer": "Mark Manson, author of The Subtle Art of Not Giving a F*ck",
     "content": "A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less."
   },
   {
     "bookName": "Atomic Habits: The life-changing million copy bestseller",
-    "Reviewer": "Dr Rangan Chatterjee",
+    "reviewer": "Dr Rangan Chatterjee",
     "content": "It's an absolutely fabulous book and it doesn't surprise me that it's sold so many copies . . . Very useful, very practical, super well-researched."
   },
   {
     "bookName": "Atomic Habits: The life-changing million copy bestseller",
-    "Reviewer": "Financial Times",
+    "reviewer": "Financial Times",
     "content": "Atomic Habits is a step-by-step manual for changing routines . . . Inspiring real-life stories."
   },
   {
     "bookName": "Atomic Habits: The life-changing million copy bestseller",
-    "Reviewer": "Business Insider",
+    "reviewer": "Business Insider",
     "content": "Zeroes in on the science behind building good habits and breaking bad ones . . . enlightening."
   },
   {
     "bookName": "Atomic Habits: The life-changing million copy bestseller",
-    "Reviewer": "Financial Times",
+    "reviewer": "Financial Times",
     "content": "Atomic Habits [is] a new book by James Clear that I’m relying on to develop realistic goals."
   },
   {
-    "name": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
-    "Reviewer": "Anthony Horowitz",
+    "bookName": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
+    "reviewer": "Anthony Horowitz",
     "content": "A book of wonders and a wonderful book!"
   },
   {
-    "name": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
-    "Reviewer": "Mary Pope Osborne",
+    "bookName": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
+    "reviewer": "Mary Pope Osborne",
     "content": "Well-illustrated and info-packed, this is a wonderful encyclopedia for the curious kids in all our lives."
   },
   {
-    "name": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
-    "Reviewer": "Jacqueline Wilson",
+    "bookName": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
+    "reviewer": "Jacqueline Wilson",
     "content": "An amazing, colourful collection of fantastic facts."
   },
   {
-    "name": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
-    "Reviewer": "The New York Times, Holiday Gift Guide 2020",
+    "bookName": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
+    "reviewer": "The New York Times, Holiday Gift Guide 2020",
     "content": "A refreshing transparency distinguishes Britannica's All New Kids' Encyclopedia, from the ultrasmart subtitle to the mini profiles of its experts. Visually driven, with factoids, lists, infographics, even quizzes."
   },
   {
-    "name": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
-    "Reviewer": "Meghan Cox Gurdon, The Wall Street Journal",
+    "bookName": "Britannica All New Kids' Encyclopedia: What We Know & What We Don't",
+    "reviewer": "Meghan Cox Gurdon, The Wall Street Journal",
     "content": "This exciting single-volume compendium ranges across time and space, and it's packed with pictures."
   },
   {
-    "name": "Spare",
-    "Reviewer": "Time",
+    "bookName": "Spare",
+    "reviewer": "Time",
     "content": "Unflinching, introspective, and well-written."
   },
   {
-    "name": "Spare",
-    "Reviewer": "The New Yorker",
+    "bookName": "Spare",
+    "reviewer": "The New Yorker",
     "content": "Compellingly artful . . . [a] blockbuster memoir."
   },
   {
-    "name": "Spare",
-    "Reviewer": "The Atlantic",
+    "bookName": "Spare",
+    "reviewer": "The Atlantic",
     "content": "A scorching account of life in a golden cage."
   },
   {
-    "name": "Ikigai: The Japanese Secret to a Long and Happy Life",
-    "Reviewer": "KonMari Newsletter",
+    "bookName": "Ikigai: The Japanese Secret to a Long and Happy Life",
+    "reviewer": "KonMari Newsletter",
     "content": "Ikigai urges individuals to simplify their lives by pursuing what sparks joy for them. . . . Much in the same way that The Life-Changing Magic of Tidying Up emphasizes ‘choosing what we want to keep, and not what we want to get rid of,’ [Ikigai] demonstrates that aging could be an opportunity to keep working, keep smiling, keep active, and keep being social."
   },
   {
-    "name": "Ikigai: The Japanese Secret to a Long and Happy Life",
-    "Reviewer": "New York Post",
+    "bookName": "Ikigai: The Japanese Secret to a Long and Happy Life",
+    "reviewer": "New York Post",
     "content": "Want to live longer? Keep super busy. If hygge is the art of doing nothing, ikigai is the art of doing something—and doing it with supreme focus and joy. . . . Pack up those cozy blankets and candles you purchased in last year’s hygge-fueled Ikea spree. Fall’s biggest imported lifestyle trend is ikigai, and it might help you live to 100."
   },
   {
-    "name": "Ikigai: The Japanese Secret to a Long and Happy Life",
-    "Reviewer": "Mia Feitel, Elle.com",
+    "bookName": "Ikigai: The Japanese Secret to a Long and Happy Life",
+    "reviewer": "Mia Feitel, Elle.com",
     "content": "Busy-ness is a concept I’m familiar with and fascinated by, especially living in New York City. . . . The Japanese concept of ikigai (the happiness of being busy) [is] attainable and even an important key to living longer."
   },
   {
-    "name": "Ikigai: The Japanese Secret to a Long and Happy Life",
-    "Reviewer": "Forbes",
+    "bookName": "Ikigai: The Japanese Secret to a Long and Happy Life",
+    "reviewer": "Forbes",
     "content": "Discovering your ikigai, or passion, can be one of the greatest journeys you will embark on."
   },
   {
-    "name": "Ikigai: The Japanese Secret to a Long and Happy Life",
-    "Reviewer": "Minneapolis Star Tribune",
+    "bookName": "Ikigai: The Japanese Secret to a Long and Happy Life",
+    "reviewer": "Minneapolis Star Tribune",
     "content": "Definitely worth the time it will take you to enjoy a cup or two of green tea as you digest this small, charming book."
   }
 ]

@@ -1,0 +1,6 @@
+<h2>Book Reviews</h2>
+
+<div *ngFor="let review of reviews | async">
+  <h3>{{ review.bookName }}</h3>
+  <p>{{ review.content }} --{{ review.reviewer }}</p>
+</div>

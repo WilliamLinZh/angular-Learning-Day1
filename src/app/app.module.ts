@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -14,10 +15,13 @@ import { PaperComponent } from './paper/paper.component';
 import { ProductsComponent } from './products/products.component';
 import { BookCardComponent } from './book-card/book-card.component';
 import { BookDetailsComponent } from './book-details/book-details.component';
+import { BookReviewsComponent } from './book-reviews/book-reviews.component';
+import { BookCommentsComponent } from './book-comments/book-comments.component';
 
 @NgModule({
   imports: [
     BrowserModule,
+    HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: CardListComponent },
@@ -27,6 +31,8 @@ import { BookDetailsComponent } from './book-details/book-details.component';
       { path: 'paper', component: PaperComponent },
       { path: 'products', component: ProductsComponent },
       { path: 'book/:bookId', component: BookDetailsComponent },
+      { path: 'bookReviews', component: BookReviewsComponent },
+      { path: 'bookComments', component: BookCommentsComponent },
     ]),
   ],
   declarations: [
@@ -41,6 +47,8 @@ import { BookDetailsComponent } from './book-details/book-details.component';
     ProductsComponent,
     BookCardComponent,
     BookDetailsComponent,
+    BookReviewsComponent,
+    BookCommentsComponent,
   ],
   bootstrap: [AppComponent],
 })
