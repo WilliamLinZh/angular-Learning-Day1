@@ -1,1 +1,17 @@
-<p>book-comments works!</p>
+<h2>Comments</h2>
+
+<form [formGroup]="commentsForm" (ngSubmit)="submitComments()">
+  <div>
+    <label for="bookName">Book Name</label>
+    <input type="text" id="bookName" formControlName="bookName" />
+  </div>
+  <div>
+    <label for="readerName">Reader Name</label>
+    <input type="text" id="readerName" formControlName="readerName" />
+  </div>
+  <div>
+    <label for="comments">Comments</label>
+    <input type="text" id="comments" formControlName="comments" />
+  </div>
+  <button class="button" type="submit">Submit Comments</button>
+</form>
