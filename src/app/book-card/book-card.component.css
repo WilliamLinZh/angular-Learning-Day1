@@ -1,0 +1,16 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button {
+  margin: 2px;
+}
+
+.imageHide {
+  visibility: hidden;
+}
+
+.imageShow {
+  visibility: visible;
+}

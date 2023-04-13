@@ -12,6 +12,8 @@ import { PenComponent } from './pen/pen.component';
 import { GeometryComponent } from './geometry/geometry.component';
 import { PaperComponent } from './paper/paper.component';
 import { ProductsComponent } from './products/products.component';
+import { BookCardComponent } from './book-card/book-card.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
 
 @NgModule({
   imports: [
@@ -24,6 +26,7 @@ import { ProductsComponent } from './products/products.component';
       { path: 'geometry', component: GeometryComponent },
       { path: 'paper', component: PaperComponent },
       { path: 'products', component: ProductsComponent },
+      { path: 'book/:bookId', component: BookDetailsComponent },
     ]),
   ],
   declarations: [
@@ -36,6 +39,8 @@ import { ProductsComponent } from './products/products.component';
     GeometryComponent,
     PaperComponent,
     ProductsComponent,
+    BookCardComponent,
+    BookDetailsComponent,
   ],
   bootstrap: [AppComponent],
 })

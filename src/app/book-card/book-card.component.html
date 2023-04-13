@@ -1,0 +1,10 @@
+<div>
+  <button type="button" (click)="hideImage()">Hide</button>
+  <button type="button" (click)="showImage()">Show</button>
+  <a [routerLink]="['/book', book.id]"
+    ><p>Book {{ book.name }}</p></a
+  >
+  <div [class]="imageDisplay ? 'imageShow' : 'imageHide'">
+    <img [src]="book.imageUrl" />
+  </div>
+</div>
