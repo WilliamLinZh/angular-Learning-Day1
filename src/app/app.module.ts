@@ -17,6 +17,7 @@ import { BookCardComponent } from './book-card/book-card.component';
 import { BookDetailsComponent } from './book-details/book-details.component';
 import { BookReviewsComponent } from './book-reviews/book-reviews.component';
 import { BookCommentsComponent } from './book-comments/book-comments.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { BookCommentsComponent } from './book-comments/book-comments.component';
       { path: 'book/:bookId', component: BookDetailsComponent },
       { path: 'bookReviews', component: BookReviewsComponent },
       { path: 'bookComments', component: BookCommentsComponent },
+      { path: 'menu', component: MenuComponent },
     ]),
   ],
   declarations: [
@@ -49,6 +51,7 @@ import { BookCommentsComponent } from './book-comments/book-comments.component';
     BookDetailsComponent,
     BookReviewsComponent,
     BookCommentsComponent,
+    MenuComponent,
   ],
   bootstrap: [AppComponent],
 })
