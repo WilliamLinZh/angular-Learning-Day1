@@ -1,1 +1,7 @@
-<p>book-details works!</p>
+
+<div *ngIf="book">
+  <h3>{{ book.name }}</h3>
+  <h4>{{ book.price | currency }}</h4>
+  <img [src]="book.imageUrl" />
+  <p>{{ book.description }}</p>
+</div>
